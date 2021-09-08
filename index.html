@@ -440,6 +440,29 @@
             <use href="./img/icons.svg#icon-close"></use>
           </svg>
         </button>
+        <form class="modal-form" action="">
+          <p class="modal-form-text">Оставьте свои данные, мы вам перезвоним</p>
+          <label class="label-modal" for="name">Имя</label>
+          <input class="input-modal" type="text" name="name" id="name" />
+          <label class="label-modal" for="phone">Телефон</label>
+          <input class="input-modal" type="text" name="phone" id="phone" />
+          <label class="label-modal" for="mail">Почта</label>
+          <input class="input-modal" type="text" name="mail" id="mail" />
+          <label class="label-modal" for="comment">Комментарий</label>
+          <textarea
+            class="textarea-modal"
+            name="comment"
+            id="comment"
+            cols="30"
+            rows="10"
+          ></textarea>
+          <input type="checkbox" name="accept" value="accept" />
+          <label for
+            >Соглашаюсь с рассылкой и принимаю
+            <a href=""> Условия договора</a></label
+          >
+          <button class="input-button-modal" type="submit">Отправить</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
