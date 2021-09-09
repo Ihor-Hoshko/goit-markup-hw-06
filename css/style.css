@@ -831,10 +831,9 @@ img {
   margin-bottom: 10px;
   position: relative;
 }
+
 .icon-man {
   position: absolute;
-  bottom: 0;
-  right: 12;
 }
 .modal-form-phone {
   margin-bottom: 10px;
@@ -886,6 +885,7 @@ img {
   border: 1px solid #2196f3;
 }
 .label-modal {
+  position: relative;
   font-family: "Roboto", sans-serif;
   font-size: 12px;
   font-weight: 400;
