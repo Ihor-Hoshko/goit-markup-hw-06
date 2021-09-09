@@ -772,6 +772,14 @@ img {
   background-color: #ffffff;
   cursor: pointer;
 }
+.close-modal-button:hover .icon-close,
+.close-modal-button:focus .icon-close {
+  fill: var(--button-hover-color);
+}
+.icon-close:hover,
+.icon-close:focus {
+  fill: var(--button-hover-color);
+}
 
 .contact-form {
   position: relative;
@@ -821,6 +829,12 @@ img {
 }
 .modal-form-name {
   margin-bottom: 10px;
+  position: relative;
+}
+.icon-man {
+  position: absolute;
+  bottom: 0;
+  right: 12;
 }
 .modal-form-phone {
   margin-bottom: 10px;
@@ -845,6 +859,8 @@ img {
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+  padding-left: 42px;
+  margin-top: 4px;
 }
 .input-modal:hover,
 .input-modal:focus {
@@ -862,6 +878,12 @@ img {
 .textarea-modal {
   width: 448px;
   height: 120px;
+  margin-top: 4px;
+  border-radius: 4px;
+}
+.textarea-modal:hover,
+.textarea-modal:focus {
+  border: 1px solid #2196f3;
 }
 .label-modal {
   font-family: "Roboto", sans-serif;
