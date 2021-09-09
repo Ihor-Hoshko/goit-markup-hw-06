@@ -819,11 +819,30 @@ img {
   font-size: 14px;
   line-height: 1.1;
 }
-
+.modal-form-name {
+  margin-bottom: 10px;
+}
+.modal-form-phone {
+  margin-bottom: 10px;
+}
+.modal-form-mail {
+  margin-bottom: 10px;
+}
+.modal-form-comment {
+  margin-bottom: 20px;
+}
+.modal-form-agreement {
+  margin-bottom: 30px;
+}
+.modal-form-submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
 .input-modal {
   width: 448px;
   height: 40px;
-  margin-bottom: 28px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
 }
@@ -843,7 +862,6 @@ img {
 .textarea-modal {
   width: 448px;
   height: 120px;
-  margin-bottom: 20px;
 }
 .label-modal {
   font-family: "Roboto", sans-serif;
@@ -854,8 +872,26 @@ img {
   color: var(--secondary-text-color);
 }
 .input-button-modal {
-    width: 200px;
+  width: 200px;
   height: 50px;
   background-color: var(--button-hover-color);
   color: var(--button-hover-text-color);
   border-radius: 4px;
+}
+
+.accept-agreement {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+.accept-agreement-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--button-hover-color);
+}
