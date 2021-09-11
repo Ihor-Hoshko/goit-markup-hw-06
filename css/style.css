@@ -466,7 +466,7 @@ img {
   letter-spacing: 00.03em;
   color: var(--button-hover-text-color);
   background-color: rgba(47, 48, 58, 0.8);
-  z-index: 1;
+  z-index: 0;
 }
 .work-list-img .item + .item {
   margin-left: 30px;
@@ -803,6 +803,7 @@ img {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   padding-left: 16px;
+  outline: none;
 }
 .input-button {
   position: absolute;
@@ -834,6 +835,7 @@ img {
 }
 .label-modal-span {
   position: relative;
+  outline: none;
 }
 .label-modal-span:hover .icon-modal,
 .label-modal-span:focus .icon-modal {
@@ -872,7 +874,6 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 40px;
 }
 .input-modal {
   width: 448px;
@@ -882,6 +883,7 @@ img {
   padding-left: 42px;
   margin-top: 4px;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  outline: none;
 }
 .input-modal:hover,
 .input-modal:focus {
@@ -909,6 +911,7 @@ img {
   font-size: 14px;
   letter-spacing: 0.01em;
   line-height: 1.17;
+  outline: none;
 }
 .textarea-modal:hover,
 .textarea-modal:focus {
@@ -930,6 +933,7 @@ img {
   background-color: var(--button-hover-color);
   color: var(--button-hover-text-color);
   border-radius: 4px;
+  outline: none;
 }
 
 .accept-agreement {
@@ -941,6 +945,7 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+  justify-content: center;
 }
 .accept-agreement-link {
   font-family: "Roboto", sans-serif;
@@ -949,6 +954,7 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--button-hover-color);
+  outline: none;
 }
 .label-accept-check {
   display: flex;
@@ -959,7 +965,7 @@ img {
   border: 1px solid #212121;
   border-radius: 4px;
   margin-right: 8px;
-  box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.25);
+  outline: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
